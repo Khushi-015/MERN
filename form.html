@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/action.php">
+     <input type="text" placeholder="Username">
+     <br><br>
+     <input type="password" placeholder="Password">
+     <br><br>
+     <h3>Select your class:</h3>
+     <label for="101">
+     <input type="radio" value="Class XI" name="class" id="101">Class XI
+     </label>
+     <br>
+     <br>
+     <label for="102">
+     <input type="radio" value="Class XII" name="class" id="102">Class XII
+     </label>
+     <h3>Select your subjects:</h3>
+     <label for="math">
+    <input type="checkbox" value="math" name="subject" id="101">Math
+     </label>
+     <br><br>
+     <label for="phy">
+    <input type="checkbox" value="phy" name="subject" id="102">Physics
+     </label>
+     <br><br>
+     <label for="chem">
+     <input type="checkbox" value="chem" name="subject" id="103">Chemistry
+    </label>
+    <br><br>
+    <label for="CS">
+    <input type="checkbox" value="CS" name="subject" id="104">Computer Science
+     </label>
+     <br><br>
+     <h3>Select your city:</h3>
+     <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+     </select>
+     <br><br>
+     <textarea name="feedback" id="101" placeholder="Give your valueable feedback here" rows=10>Feedback</textarea>
+     <br>
+     <input type="submit" value="submit">
+    </form>
+</body>
+</html>
